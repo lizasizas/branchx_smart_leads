@@ -100,8 +100,8 @@ if 'assignments' not in st.session_state: st.session_state.assignments={}
 if 'contact_logs' not in st.session_state: st.session_state.contact_logs=[]
 
 with st.sidebar:
-    st.markdown('## 🏦 BranchX')
-    st.caption('SMART LEADS · OJT DEMO')
+    ## st.markdown('## 🏦 BranchX')
+    st.caption('SMART LEADS')
     st.divider()
     st.markdown('**Data source**')
     source=st.radio('Choose dataset', ['Synthetic demo (recommended)','Upload authorized test file'],label_visibility='collapsed')
