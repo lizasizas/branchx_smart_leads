@@ -1,6 +1,6 @@
 # BranchX Smart Leads — Streamlit MVP
 
-An interactive, deployable prototype for EDA lead data quality, operational prioritization, CIF consolidation, multi-PIC conflict detection, and impact measurement.
+An interactive, deployable prototype for lead data quality, operational prioritization, CIF consolidation, multi-PIC conflict detection, and impact measurement.
 
 ## Run locally
 
