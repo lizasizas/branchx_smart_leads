@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-st.set_page_config(page_title='BranchX Smart Leads', page_icon='🏦', layout='wide', initial_sidebar_state='expanded')
+st.set_page_config(page_title='Smart Leads', page_icon='🏦', layout='wide', initial_sidebar_state='expanded')
 COLS=['CIF','Status','Nama Nasabah','Nama Produk','Inisiatif','Sub Inisiatif','Nama Perusahaan','Tanggal Upload','Tanggal Expired','Keterangan 1','Keterangan 2','Keterangan 3','Kategori Lead','Limit Indikatif','Assign To','Assign By','Assign Date','Kode Cabang','Kode Kawasan','Kode Area','Kode Region']
 STATUSES=['Assigned','Followup','New','Old','Reassigned','Referral','To be reffered']
 CATEGORIES=['Business Case','GMM','Hotlead','Reguler','Reoffer']
